@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+#Calcu{
+    display: grid;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-gap: none; 
+    text-align: center;
+}
+.display{
+    margin: auto;
+    display:block;
+    padding: 14px 75px;
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: large;
+    font-style: bold;
+}
+.button{
+    background-color: grey;
+    color: black;
+    padding: 14px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px;
+}
